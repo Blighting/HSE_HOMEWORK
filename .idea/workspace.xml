@@ -9,7 +9,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8766b2d-2ea8-4f41-8a41-052e2f7d1cda" name="Default Changelist" comment="" />
+    <list default="true" id="b8766b2d-2ea8-4f41-8a41-052e2f7d1cda" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/code_quality_tools/ktlint.gradle" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/HSE_Homework-week1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eMDHek3XC4MbpvaclOTU6T4TZJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -160,22 +162,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594201804618" />
-    <state width="1877" height="443" key="GridCell.Tab.0.bottom" timestamp="1594209552465">
+    <state width="1877" height="443" key="GridCell.Tab.0.bottom" timestamp="1594211841468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="443" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594209552465" />
-    <state width="1877" height="443" key="GridCell.Tab.0.center" timestamp="1594209552465">
+    <state width="1877" height="443" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594211841468" />
+    <state width="1877" height="443" key="GridCell.Tab.0.center" timestamp="1594211841468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="443" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594209552465" />
-    <state width="1877" height="443" key="GridCell.Tab.0.left" timestamp="1594209552464">
+    <state width="1877" height="443" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594211841468" />
+    <state width="1877" height="443" key="GridCell.Tab.0.left" timestamp="1594211841467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="443" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594209552464" />
-    <state width="1877" height="443" key="GridCell.Tab.0.right" timestamp="1594209552465">
+    <state width="1877" height="443" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594211841467" />
+    <state width="1877" height="443" key="GridCell.Tab.0.right" timestamp="1594211841468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="443" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594209552465" />
+    <state width="1877" height="443" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594211841468" />
     <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1594154225892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
