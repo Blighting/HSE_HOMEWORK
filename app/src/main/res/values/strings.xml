@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Test Application</string>
+    <string name="info">О себе</string>
+    <string name="name">Юрин Евгений</string>
+    <string name="education">11 класс</string>
+    <string name="project_header">Идея проекта</string>
+    <string name="button_text">Github</string>
+    <string name="project">Написано в лс, СЕКУРИТИ АЛЛЕРТ</string>
+    <string name="skills">Навыки</string>
+</resources>
