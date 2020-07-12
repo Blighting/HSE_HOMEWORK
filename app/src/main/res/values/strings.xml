@@ -7,4 +7,6 @@
     <string name="button_text">Github</string>
     <string name="project">Написано в лс, СЕКУРИТИ АЛЛЕРТ</string>
     <string name="skills">Навыки</string>
+    <string name="floating_button">Применить</string>
+    <string name="filter">Фильтр</string>
 </resources>

@@ -5,18 +5,14 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.testapplication.AppData.getSkills
 import com.hannesdorfmann.adapterdelegates4.ListDelegationAdapter
 import com.hannesdorfmann.adapterdelegates4.dsl.adapterDelegateLayoutContainer
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.skill_item.*
 
-class MainActivity : AppCompatActivity() {
-    private var skills: ArrayList<Skill> = arrayListOf(
-        Skill("Kotlin", "3 days"),
-        Skill("Java", "2y"),
-        Skill("C++", "~0.5y"),
-        Skill("Python", "1y")
-    )
+class MainActivity : AppCompatActivity(), FilterDialogFragment.Callback {
+    private var skills: ArrayList<Skill> = getSkills()
     private var skillsAdapter = ListDelegationAdapter(skillsAdapterDelegate())
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,6 +21,11 @@ class MainActivity : AppCompatActivity() {
             val openLink = Intent(Intent.ACTION_VIEW)
             openLink.data = Uri.parse("https://github.com/Blighting")
             startActivityForResult(openLink, 1)
+        }
+        dialog_fragment.setOnClickListener {
+            FilterDialogFragment
+                .newInstance()
+                .show(supportFragmentManager, FilterDialogFragment.TAG)
         }
         skillsAdapter.items = skills
         with(skillsContainer) {
@@ -40,4 +41,12 @@ class MainActivity : AppCompatActivity() {
                 exp.text = item.exp
             }
         }
+
+    override fun sendOnSkills(skills: List<Skill>) {
+        skillsAdapter.items = skills
+        with(skillsContainer) {
+            adapter = skillsAdapter
+        }
+        skillsContainer.adapter?.notifyDataSetChanged()
+    }
 }
